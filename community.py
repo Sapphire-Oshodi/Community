@@ -32,8 +32,7 @@ def main():
     st.image(
         COMMUNITY_SUPPORT_IMAGE_PATH,
         caption="Connecting the PCOS Community",
-        width=800,
-        use_column_width="auto"
+        use_container_width=True
     )
 
     st.markdown("#### Explore and Connect")
